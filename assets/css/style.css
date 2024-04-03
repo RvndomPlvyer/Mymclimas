@@ -31,17 +31,21 @@ h3 {
   text-transform: uppercase;
 }
 
+b
+
 /* Nav */
 nav{
     z-index: 999;
 }
 
+.nav-link{
+  font-size: 18px !important;
+}
 .navbar{
   transition: background-color 0.3s ease;
 }
 
 .bg-navbar{
-  background-color: #B5C0D0;
   opacity: 90%;
 }
 
@@ -54,9 +58,21 @@ width: 1.5rem;
     background-color: #B5C0D0;
 }
 
+.icon-container{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F5E8DD;
+}
+
 /* Features */
 #features{
   background-color: #B5C0D0;
+}
+
+.border-card{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F5E8DD !important;
 }
 
 .card-image{
@@ -66,4 +82,10 @@ width: 1.5rem;
 /* Contact */
 #contact{
   background-color: #B5C0D0;
+}
+
+.border-form{
+    border-style: solid;
+    border-width: 2px !important;
+    border-color: #F5E8DD !important;
 }
